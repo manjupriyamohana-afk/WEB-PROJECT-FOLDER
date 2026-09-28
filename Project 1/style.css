@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #111;
+    font-family: Arial;
+}
+
+.box {
+    text-align: center;
+}
+
+.ring {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(green 0deg, #333 0deg);
+    transition: 0.3s;
+}
+
+.inner {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#count {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#mood {
+    font-size: 30px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 18px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.plus {
+    background: green;
+    color: white;
+}
+
+.minus {
+    background: red;
+    color: white;
+}
+
+.reset {
+    background: gray;
+    color: white;
+}

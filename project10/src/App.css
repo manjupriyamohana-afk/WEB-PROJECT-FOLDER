@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #fff7ed;
+  color: #333;
+}
+
+nav {
+  background: #174ea6;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.home,
+.page {
+  text-align: center;
+  padding: 45px 20px;
+}
+
+.home h1,
+.page h1 {
+  color: #174ea6;
+}
+
+.info {
+  background: #ffedd5;
+  width: 400px;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+button {
+  background: #f97316;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  width: 230px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px #ddd;
+  border-top: 5px solid #f97316;
+}
+
+.card h2 {
+  color: #174ea6;
+}
+
+.card a {
+  color: #f97316;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.report {
+  background: white;
+  width: 450px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #ddd;
+}
+
+.report h2 {
+  color: #f97316;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #174ea6;
+  color: white;
+}
+
+.result {
+  color: green;
+  background: #dcfce7;
+  padding: 10px;
+  border-radius: 6px;
+}
